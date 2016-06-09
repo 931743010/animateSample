@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="AnimateSample" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="SJo-D3-C4j" customClass="HomeBarConnect" customModule="AnimateSample" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="xXw-OG-WXC">
+                                <rect key="frame" x="0.0" y="40" width="600" height="60"/>
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZQA-qK-fHb">
+                                        <rect key="frame" x="153" y="15.5" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Ulj-FS-wbH"/>
+                                            <constraint firstAttribute="width" constant="46" id="bw8-UF-gmd"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="蓝牙无效"/>
+                                        <connections>
+                                            <action selector="clickState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="YtZ-Rd-hAf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zLu-e8-CjF">
+                                        <rect key="frame" x="215" y="15.5" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="hsW-jX-QFt"/>
+                                            <constraint firstAttribute="width" constant="46" id="lX2-ft-0v9"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="蓝牙未开启"/>
+                                        <connections>
+                                            <action selector="clickState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FUZ-ML-MqR"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="kyq-XZ-2Ge">
+                                        <rect key="frame" x="277" y="15.5" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Xz5-9H-9GR"/>
+                                            <constraint firstAttribute="width" constant="46" id="eAN-xl-sz4"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="正在扫描"/>
+                                        <connections>
+                                            <action selector="clickState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bYu-bk-CNI"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="3" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dmM-z9-vRl">
+                                        <rect key="frame" x="339" y="15.5" width="46" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="46" id="2Ol-ut-pux"/>
+                                            <constraint firstAttribute="height" constant="30" id="WHh-9U-eKt"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="正在连接"/>
+                                        <connections>
+                                            <action selector="clickState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="7OG-nP-bCf"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" tag="4" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="iTx-9R-6qX">
+                                        <rect key="frame" x="401" y="15.5" width="60" height="30"/>
+                                        <constraints>
+                                            <constraint firstAttribute="height" constant="30" id="Pbq-Bv-pJF"/>
+                                            <constraint firstAttribute="width" constant="60" id="SzL-rQ-EEZ"/>
+                                        </constraints>
+                                        <fontDescription key="fontDescription" type="system" pointSize="10"/>
+                                        <state key="normal" title="连接完毕"/>
+                                        <connections>
+                                            <action selector="clickState:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ukF-ky-qJh"/>
+                                        </connections>
+                                    </button>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="60" id="A7H-yh-tQ4"/>
+                                    <constraint firstItem="iTx-9R-6qX" firstAttribute="leading" secondItem="dmM-z9-vRl" secondAttribute="trailing" constant="16" id="A7Y-fs-q9C"/>
+                                    <constraint firstItem="dmM-z9-vRl" firstAttribute="centerY" secondItem="xXw-OG-WXC" secondAttribute="centerY" id="H2f-wx-BDe"/>
+                                    <constraint firstItem="zLu-e8-CjF" firstAttribute="leading" secondItem="ZQA-qK-fHb" secondAttribute="trailing" constant="16" id="Qaz-eL-xsy"/>
+                                    <constraint firstItem="ZQA-qK-fHb" firstAttribute="centerY" secondItem="xXw-OG-WXC" secondAttribute="centerY" id="XQB-2r-YR6"/>
+                                    <constraint firstItem="kyq-XZ-2Ge" firstAttribute="leading" secondItem="zLu-e8-CjF" secondAttribute="trailing" constant="16" id="Ztb-UZ-fvE"/>
+                                    <constraint firstItem="zLu-e8-CjF" firstAttribute="centerY" secondItem="xXw-OG-WXC" secondAttribute="centerY" id="gbz-1C-gvj"/>
+                                    <constraint firstItem="kyq-XZ-2Ge" firstAttribute="centerY" secondItem="xXw-OG-WXC" secondAttribute="centerY" id="o9e-W1-P6U"/>
+                                    <constraint firstItem="kyq-XZ-2Ge" firstAttribute="centerX" secondItem="xXw-OG-WXC" secondAttribute="centerX" id="pwE-4Z-nu2"/>
+                                    <constraint firstItem="iTx-9R-6qX" firstAttribute="centerY" secondItem="xXw-OG-WXC" secondAttribute="centerY" id="rTv-sB-rdJ"/>
+                                    <constraint firstItem="dmM-z9-vRl" firstAttribute="leading" secondItem="kyq-XZ-2Ge" secondAttribute="trailing" constant="16" id="vSz-3u-gzs"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="xXw-OG-WXC" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="40" id="Lfs-jR-tiU"/>
+                            <constraint firstItem="xXw-OG-WXC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="NhT-Hs-UWy"/>
+                            <constraint firstItem="SJo-D3-C4j" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="WyL-HN-n9i"/>
+                            <constraint firstItem="xXw-OG-WXC" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="lXS-rr-cav"/>
+                            <constraint firstItem="SJo-D3-C4j" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="lZN-7F-jLx"/>
+                            <constraint firstItem="SJo-D3-C4j" firstAttribute="height" secondItem="8bC-Xf-vdC" secondAttribute="height" id="qCa-nU-Vzy"/>
+                            <constraint firstItem="SJo-D3-C4j" firstAttribute="width" secondItem="8bC-Xf-vdC" secondAttribute="width" id="ry5-Mf-Qzq"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="animateView" destination="SJo-D3-C4j" id="5po-G1-edP"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="305" y="354"/>
+        </scene>
+    </scenes>
+</document>
