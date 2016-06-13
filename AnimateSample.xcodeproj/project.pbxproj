@@ -17,6 +17,7 @@
 		674F0B941D09501300D230A2 /* HomeBarConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F0B931D09501300D230A2 /* HomeBarConnect.swift */; };
 		674F0B961D09519100D230A2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F0B951D09519100D230A2 /* UIColor.swift */; };
 		679219921D0ECCD8006B5E15 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 679219911D0ECCD8006B5E15 /* sample.gif */; };
+		679219941D0ECD8B006B5E15 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 679219931D0ECD8B006B5E15 /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		674F0B931D09501300D230A2 /* HomeBarConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBarConnect.swift; sourceTree = "<group>"; };
 		674F0B951D09519100D230A2 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
 		679219911D0ECCD8006B5E15 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
+		679219931D0ECD8B006B5E15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +105,7 @@
 		674F0B641D094FD700D230A2 /* AnimateSample */ = {
 			isa = PBXGroup;
 			children = (
+				679219931D0ECD8B006B5E15 /* README.md */,
 				679219911D0ECCD8006B5E15 /* sample.gif */,
 				674F0B931D09501300D230A2 /* HomeBarConnect.swift */,
 				674F0B651D094FD700D230A2 /* AppDelegate.swift */,
@@ -268,6 +271,7 @@
 			files = (
 				674F0B681D094FD700D230A2 /* ViewController.swift in Sources */,
 				674F0B961D09519100D230A2 /* UIColor.swift in Sources */,
+				679219941D0ECD8B006B5E15 /* README.md in Sources */,
 				674F0B941D09501300D230A2 /* HomeBarConnect.swift in Sources */,
 				674F0B661D094FD700D230A2 /* AppDelegate.swift in Sources */,
 			);
