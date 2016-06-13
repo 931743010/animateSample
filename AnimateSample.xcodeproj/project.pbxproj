@@ -16,6 +16,7 @@
 		674F0B861D094FD800D230A2 /* AnimateSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F0B851D094FD800D230A2 /* AnimateSampleUITests.swift */; };
 		674F0B941D09501300D230A2 /* HomeBarConnect.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F0B931D09501300D230A2 /* HomeBarConnect.swift */; };
 		674F0B961D09519100D230A2 /* UIColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 674F0B951D09519100D230A2 /* UIColor.swift */; };
+		679219921D0ECCD8006B5E15 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 679219911D0ECCD8006B5E15 /* sample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		674F0B871D094FD800D230A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		674F0B931D09501300D230A2 /* HomeBarConnect.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeBarConnect.swift; sourceTree = "<group>"; };
 		674F0B951D09519100D230A2 /* UIColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UIColor.swift; sourceTree = "<group>"; };
+		679219911D0ECCD8006B5E15 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +103,7 @@
 		674F0B641D094FD700D230A2 /* AnimateSample */ = {
 			isa = PBXGroup;
 			children = (
+				679219911D0ECCD8006B5E15 /* sample.gif */,
 				674F0B931D09501300D230A2 /* HomeBarConnect.swift */,
 				674F0B651D094FD700D230A2 /* AppDelegate.swift */,
 				674F0B671D094FD700D230A2 /* ViewController.swift */,
@@ -235,6 +238,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				679219921D0ECCD8006B5E15 /* sample.gif in Resources */,
 				674F0B701D094FD700D230A2 /* LaunchScreen.storyboard in Resources */,
 				674F0B6D1D094FD700D230A2 /* Assets.xcassets in Resources */,
 				674F0B6B1D094FD700D230A2 /* Main.storyboard in Resources */,
@@ -496,6 +500,7 @@
 				674F0B8C1D094FD800D230A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		674F0B8D1D094FD800D230A2 /* Build configuration list for PBXNativeTarget "AnimateSampleTests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +509,7 @@
 				674F0B8F1D094FD800D230A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		674F0B901D094FD800D230A2 /* Build configuration list for PBXNativeTarget "AnimateSampleUITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +518,7 @@
 				674F0B921D094FD800D230A2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
